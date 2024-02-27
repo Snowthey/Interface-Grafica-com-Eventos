@@ -70,17 +70,12 @@ public class terceiraTela extends JFrame implements ActionListener{
            float Peso1 = Float.parseFloat(txtPeso1.getText());
            float Peso2 = Float.parseFloat(txtPeso2.getText());
 
-
             float Resultado = ((Num1 * Peso1) +(Num2 * Peso2))/(Peso1 + Peso2);
 
             lblResultado.setText("A media Ponderada é: "+ Float.toString(Resultado));
 
-
         }
 
     }
-
-    
-
 
 }
