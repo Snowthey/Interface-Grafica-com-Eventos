@@ -32,6 +32,7 @@ public class primeiraTela2 extends JFrame{
         });
 
         setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 }
     public void trataBotãoOk(){
         txtNome.setText("Botão clicado");

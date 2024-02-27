@@ -27,6 +27,7 @@ public class segundaTela extends JFrame implements ActionListener{
         btnOk.addActionListener(this);
 
         setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public static void main(String[] args){
